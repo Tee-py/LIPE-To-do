@@ -1,0 +1,23 @@
+.l_btn {
+    color: white;
+}
+
+.d_btn {
+    background-color: #db4c3f;
+}
+
+button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+#content {
+    width: 100%;
+    margin-top: 3rem;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
