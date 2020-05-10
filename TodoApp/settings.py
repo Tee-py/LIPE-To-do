@@ -28,7 +28,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 DEBUG = (os.environ.get('DEBUG_VALUE') == 'True')
 #DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://lipetodoapp.herokuapp.com/']
 
 
 # Application definition
