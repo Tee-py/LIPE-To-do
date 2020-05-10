@@ -1,0 +1,1 @@
+web: gunicorn FoodBank_Project.wsgi
