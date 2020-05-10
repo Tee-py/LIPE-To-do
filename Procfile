@@ -1,1 +1,1 @@
-web: gunicorn FoodBank_Project.wsgi
+web: gunicorn TodoApp.wsgi
