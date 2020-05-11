@@ -31,7 +31,6 @@ def dashboard(request):
     from datetime import date
     user = request.user
     all_todos = DailyTodo.objects.filter(owner=request.user, DateStamp=date.today())
-    print(all_todos)
     return render(request, 'dashboard.html', {'all_todos': all_todos, 'user': user})
 
 def addTask(request):
